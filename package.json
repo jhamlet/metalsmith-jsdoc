@@ -1,0 +1,35 @@
+{
+    "name": "metalsmith-jsdoc",
+    "description": "Documentation generator using metalsmith",
+    "version": "0.0.0",
+    "keywords": [
+        "metalsmith",
+        "jsdoc"
+    ],
+    "main": "./lib/index.js",
+    "dependencies": {
+        "jsdoc": "^3.3",
+        "ramda": "0.x"
+    },
+    "devDependencies": {
+        "mocha": "^2.3",
+        "chai":  "^3.4",
+        "sinon": "^1.17"
+    },
+    "scripts": {
+        "test": "./node_modules/.bin/mocha --harmony $(find test -name '*.js')"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://github.com/jhamlet/metalsmith-jsdoc/raw/master/LICENSE"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/jhamlet/metalsmith-jsdoc.git"
+    },
+    "bugs": {
+        "url": "http://github.com/jhamlet/metalsmith-jsdoc/issues"
+    }
+}
