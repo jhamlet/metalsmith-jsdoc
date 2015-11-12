@@ -8,8 +8,8 @@
     ],
     "main": "./lib/index.js",
     "dependencies": {
-        "jsdoc": "^3.3",
-        "ramda": "0.x"
+        "espree": "^2.2",
+        "doctrine": "^0.7"
     },
     "devDependencies": {
         "mocha": "^2.3",
